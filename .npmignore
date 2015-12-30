@@ -1,0 +1,11 @@
+_ignore/
+.DS_Store
+.git*
+.npm-debug.log
+.project
+.travis.yml
+benchmark/
+build/
+coverage/
+test/
+TODO.md

@@ -1,0 +1,242 @@
+[
+  {
+    "url": "http://bapjs.org/",
+    "tags": [
+      "awesome-webaudio",
+      "Frameworks"
+    ],
+    "description": "A toolkit for making beats and composing sequences, inspired by the classic MPC60/2000.",
+    "shortDescription": "",
+    "title": "Bap"
+  },
+  {
+    "url": "http://chimera.labs.oreilly.com/books/1234000001552/index.html",
+    "tags": [
+      "awesome-webaudio",
+      "Books"
+    ],
+    "description": "A book that brings the reader through the basics of WebAudio.",
+    "shortDescription": "",
+    "title": "Web Audio API Book"
+  },
+  {
+    "url": "http://code.tutsplus.com/tutorials/the-web-audio-api-what-is-it--cms-23735",
+    "tags": [
+      "awesome-webaudio",
+      "Tutorials"
+    ],
+    "description": "Intro to WebAudio.",
+    "shortDescription": "",
+    "title": "The Web Audio API: What Is It?"
+  },
+  {
+    "url": "https://github.com/Korilakkuma/XSound",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "Full stack library.",
+    "shortDescription": "",
+    "title": "XSound.js"
+  },
+  {
+    "url": "https://github.com/Tonejs/Tone.js",
+    "tags": [
+      "awesome-webaudio",
+      "Frameworks"
+    ],
+    "description": "A framework for making interactive music in the browser.",
+    "shortDescription": "",
+    "title": "Tone.js"
+  },
+  {
+    "url": "https://github.com/abbernie/tune",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "A tuning library of microtonal and just intonation scales. Supports over 3,000 historical tunings.",
+    "shortDescription": "",
+    "title": "TuneJS"
+  },
+  {
+    "url": "https://github.com/adelespinasse/reverbGen",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "A JavaScript library for generating artificial reverb impulse responses.",
+    "shortDescription": "",
+    "title": "reverbGen"
+  },
+  {
+    "url": "https://github.com/benji6/virtual-audio-graph",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "Library for declaratively manipulating the Web Audio API.",
+    "shortDescription": "",
+    "title": "virtual-audio-graph"
+  },
+  {
+    "url": "https://github.com/charlieroberts/Gibberish",
+    "tags": [
+      "awesome-webaudio",
+      "Frameworks"
+    ],
+    "description": "A JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques.",
+    "shortDescription": "",
+    "title": "Gibberish"
+  },
+  {
+    "url": "https://github.com/kylestetz/AudioKeys",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "A QWERTY keyboard for web audio projects.",
+    "shortDescription": "",
+    "title": "AudioKeys"
+  },
+  {
+    "url": "https://github.com/kylestetz/Web-Audio-Basics",
+    "tags": [
+      "awesome-webaudio",
+      "Tutorials"
+    ],
+    "description": "A growing set of light code samples with CodePen links for each.",
+    "shortDescription": "",
+    "title": "Web Audio Basics"
+  },
+  {
+    "url": "https://github.com/kylestetz/lissajous",
+    "tags": [
+      "awesome-webaudio",
+      "Frameworks"
+    ],
+    "description": " A tool for programmatic audio performance.",
+    "shortDescription": "",
+    "title": "lissajous"
+  },
+  {
+    "url": "https://github.com/mmckegg/loop-drop-app",
+    "tags": [
+      "awesome-webaudio",
+      "Apps"
+    ],
+    "description": "MIDI looper, modular synth and sampler app built using Web Audio and Web MIDI APIs.",
+    "shortDescription": "",
+    "title": "LoopDrop App"
+  },
+  {
+    "url": "https://github.com/mmckegg/web-audio-school\t",
+    "tags": [
+      "awesome-webaudio",
+      "Tutorials"
+    ],
+    "description": "A series of self-guided workshops to learn WebAudio.",
+    "shortDescription": "",
+    "title": "WebAudio School"
+  },
+  {
+    "url": "https://github.com/mohayonao/osc-msg",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "OSC message decoder/encoder with fault tolerance.",
+    "shortDescription": "",
+    "title": "osc-msg"
+  },
+  {
+    "url": "https://github.com/mohayonao/web-audio-test-api",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "A Web Audio test library for CI.",
+    "shortDescription": "",
+    "title": "web-audio-test-api"
+  },
+  {
+    "url": "https://github.com/mohayonao/web-audio-utils",
+    "tags": [
+      "awesome-webaudio",
+      "Utilities"
+    ],
+    "description": "Commonly needed utility functions for Web Audio API.",
+    "shortDescription": "",
+    "title": "web-audio-utils"
+  },
+  {
+    "url": "https://github.com/mrahtz/javascript-karplus-strong",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "JavaScript/Web Audio implementation of Karplus-Strong guitar synthesis.",
+    "shortDescription": "",
+    "title": "javascript-karplus-strong"
+  },
+  {
+    "url": "https://github.com/notthetup/midimessage",
+    "tags": [
+      "awesome-webaudio",
+      "MIDI"
+    ],
+    "description": "A simple MIDI Message parser.",
+    "shortDescription": "",
+    "title": "midimessage"
+  },
+  {
+    "url": "https://github.com/notthetup/resampler",
+    "tags": [
+      "awesome-webaudio",
+      "Utilities"
+    ],
+    "description": "A utility for resampling audio.",
+    "shortDescription": "",
+    "title": "resampler"
+  },
+  {
+    "url": "https://github.com/notthetup/smoothfade",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "A library for smoothly fading between two AudioNodes.",
+    "shortDescription": "",
+    "title": "smoothfade"
+  },
+  {
+    "url": "https://github.com/surikov/SSSynthesiser.js",
+    "tags": [
+      "awesome-webaudio",
+      "Frameworks"
+    ],
+    "description": " A wavetable synthesizer for interactive music and sound effects.",
+    "shortDescription": "",
+    "title": "SSSynthesiser.js"
+  },
+  {
+    "url": "https://github.com/zya/beet.js",
+    "tags": [
+      "awesome-webaudio",
+      "Libraries"
+    ],
+    "description": "A sequencer library for creating euclidean rhythms and polyrhythms.",
+    "shortDescription": "",
+    "title": "Beet.js"
+  },
+  {
+    "url": "https://korilakkuma.github.io/X-Sound/",
+    "tags": [
+      "awesome-webaudio",
+      "Apps"
+    ],
+    "description": "Multi Sound Application that uses XSound.js.",
+    "shortDescription": "",
+    "title": "X Sound"
+  }
+]
