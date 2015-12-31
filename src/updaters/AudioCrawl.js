@@ -1,3 +1,4 @@
+/*eslint no-console: 0 */
 import Updater from '../Updater';
 import request from 'request';
 
@@ -9,6 +10,7 @@ export default class AwesomeWebaudio extends Updater {
     let page = 1;
     const getUrl = function () {
       request(`${url}${page}`, function (error, response, body) {
+        console.log(`Crawling ${url}${page}.`);
         if (!error && response.statusCode == 200) {
           const info = JSON.parse(body);
           if (Array.isArray(info.demos)) {

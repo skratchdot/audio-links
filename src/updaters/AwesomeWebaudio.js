@@ -1,3 +1,4 @@
+/*eslint no-console: 0 */
 import Updater from '../Updater';
 import request from 'request';
 
@@ -7,6 +8,7 @@ export default class AwesomeWebaudio extends Updater {
   run(cb) {
     const self = this;
     request(url, function (error, response, body) {
+      console.log(`Crawling ${url}.`);
       const lines = body.split('\n');
       let tag = '';
       lines.forEach(function (line) {
