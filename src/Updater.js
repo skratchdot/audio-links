@@ -7,6 +7,11 @@ export default class Updater {
     self.urls = {};
     urlArray.forEach(function (item) {
       if (item.hasOwnProperty('url')) {
+        item.tags = item.tags.map(function (tag) {
+          return tag.toLowerCase();
+        }).filter(function (tag) {
+          return tag.length > 0;
+        });
         self.urls[item.url] = item;
       }
     });
@@ -43,7 +48,8 @@ export default class Updater {
     if (!this.urls[url].hasOwnProperty('tags')) {
       this.urls[url].tags = [];
     }
-    if (this.urls[url].tags.indexOf(tag) === -1) {
+    tag = tag.toLowerCase();
+    if (this.urls[url].tags.indexOf(tag) === -1 && tag.length > 0) {
       this.urls[url].tags.push(tag);
     }
   }

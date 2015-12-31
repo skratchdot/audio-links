@@ -142,6 +142,7 @@ class Home extends Component {
                 return (
                   <Button
                     key={`tag${i}`}
+                    bsSize="xsmall"
                     active={tags.indexOf(tag) > -1}
                     onClick={self.toggleTag.bind(self, tag)}>
                     {tag}
