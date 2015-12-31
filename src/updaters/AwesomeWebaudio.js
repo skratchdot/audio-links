@@ -23,6 +23,7 @@ export default class AwesomeWebaudio extends Updater {
             self.addUrl(url);
             self.addTag(url, 'awesome-webaudio');
             self.addTag(url, tag);
+            self.addSource(url, 'https://github.com/notthetup/awesome-webaudio');
             self.addProperty(url, 'title', title);
             self.addProperty(url, 'description', description);
           }

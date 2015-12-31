@@ -47,6 +47,15 @@ export default class Updater {
       this.urls[url].tags.push(tag);
     }
   }
+  addSource(url, source) {
+    this.addUrl(url);
+    if (!this.urls[url].hasOwnProperty('sources')) {
+      this.urls[url].sources = [];
+    }
+    if (this.urls[url].sources.indexOf(source) === -1) {
+      this.urls[url].sources.push(source);
+    }
+  }
   addProperty(url, prop, val) {
     this.addUrl(url);
     this.urls[url][prop] = val;
