@@ -26,12 +26,12 @@ A collection of audio links compiled from different sources.
 
 1. Install the codebase:
 ```bash
-git clone https://github.com/skratchdot/audio-links.git`
+git clone https://github.com/skratchdot/audio-links.git
 cd audio-links
 npm install
 ```
-2. Build website and transpile coe `gulp`
-3. Run all updaters `node ./lib/index.js`.
+2. Build website and transpile code: `gulp`
+3. Run all updaters: `node ./lib/index.js`.
 
 ### Adding a scraper
 
