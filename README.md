@@ -13,10 +13,10 @@ A collection of audio links compiled from different sources.
 
 ## Data compiled from the following sources:
 
-- [Awesome Webaudio](https://github.com/notthetup/awesome-webaudio)
-- [Web Audio Weekly](http://blog.chrislowis.co.uk/waw.html)
-- [Web Audio Resources](https://github.com/alemangui/web-audio-resources)
 - [Audio Crawl](http://audiocrawl.co/)
+- [Awesome Webaudio](https://github.com/notthetup/awesome-webaudio)
+- [Web Audio Resources](https://github.com/alemangui/web-audio-resources)
+- [Web Audio Weekly](http://blog.chrislowis.co.uk/waw.html)
 
 
 ## For Developers
