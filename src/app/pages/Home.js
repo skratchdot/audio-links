@@ -88,24 +88,27 @@ class Home extends Component {
                     {clearTagButton}
                     <br />
                   </strong>
-                  {tags.map(function (tag, i) {
-                    return (
-                      <Label
-                        key={`tag${i}`}
-                        onClick={() => {
-                          dispatch(deleteTag(tag));
-                        }}
-                        style={{
-                          marginRight: 10,
-                          cursor: 'pointer'
-                        }}>
-                        <Glyphicon glyph="remove" />
-                        &nbsp;
-                        {tag}
-                      </Label>
-                    );
-                  })}
-                  {extraTag}
+                  <div>
+                    {tags.map(function (tag, i) {
+                      return (
+                        <Label
+                          key={`tag${i}`}
+                          onClick={() => {
+                            dispatch(deleteTag(tag));
+                          }}
+                          style={{
+                            marginRight: 10,
+                            display: 'inline-block',
+                            cursor: 'pointer'
+                          }}>
+                          <Glyphicon glyph="remove" />
+                          &nbsp;
+                          {tag}
+                        </Label>
+                      );
+                    })}
+                    {extraTag}
+                  </div>
                 </div>
               </div>
             </Jumbotron>
@@ -128,7 +131,27 @@ class Home extends Component {
                     {data.description}
                     <div>&nbsp;</div>
                     <div>
-                      <small>Tags: {data.tags.join(', ')}</small>
+                      <small>
+                        Tags:
+                        {data.tags.map(function (tag, i) {
+                          const comma = i > 0 ? ',' : '';
+                          return (
+                            <span key={`tagLink${i}`}>
+                              {comma}
+                              &nbsp;
+                              <a href="#" onClick={(e) => {
+                                  e.preventDefault();
+                                  if (tags.indexOf(tag) === -1) {
+                                    dispatch(addTag(tag));
+                                  }
+                                  window.scrollTo(0, 0);
+                                }}>
+                                {tag}
+                              </a>
+                            </span>
+                          );
+                        })}
+                      </small>
                     </div>
                   </div>
                 );
